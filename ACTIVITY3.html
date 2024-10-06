@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JAVASCRIPT REALTIME VALIDATION</h1>
+    <hr>
+    <form id="login form"on submit="validationj event">
+        <fieldset>
+            <div>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" minlength="8">
+                <label for="age">AGE</label>
+                <input type="age" id="age" name="age" min="12" max="50">
+            </div>
+            <!-- Submit button for the form -->
+
+<button type="submit">Login</button>
+        </fieldset>
+    </form>
+    <div id="msgbox">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
